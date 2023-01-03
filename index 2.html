@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+<!--lien fichier css-->
+
+    <link rel="stylesheet" href="style_booki.css" />
+
+<!--ajout font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@300,400;500;600;800;900&family=Inter:wght@900&display=swap"
+        rel="stylesheet">
+
+<!--ajout Icones FontAwesome-->
+    <script src="https://kit.fontawesome.com/77ca3878be.js" crossorigin="anonymous"></script>
+    <title>Booki</title>
+</head>
+
+
+<div class="container">
+
+
+
+    <body>
+<!--Entête du site Booki-->
+        <header>
+            <div class="debut">
+                <img src="images/logo/Booki.png" alt="logo_booki" alt="Logo Booki" class="logo_booki">
+                <nav>
+                    <ul class="menu">
+                        <li class="lien_hebergements"><a href="index.html#hébergements_marseille">Hébergements</a></li>
+                        <li class="lien_activites"><a href="index.html#activités_marseille">Activités</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+<!--Texte et titre-->
+        <div id="texte-recherche">
+            <h1 class="titre">
+                Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h2 class="sous-titre">En plein centre ville ou en pleine nature</h2>
+        </div>
+
+<!--Barre de recherche-->
+
+        <section class="filtre_de_recherche">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <div class="commentaires">En plein centre ville ou en pleine nature</div>
+            <form method="post" action="#">
+                <span class="map"><i class="fa-solid fa-location-dot"></i></span>
+                <input type="text" name="ville" placeholder="Entrez la ville">
+                <button type="submit"><span class="rechercher">Rechercher</span>
+                    <span class="loupe"><i class="fas fa-regular fa-magnifying-glass"></i></span></button>
+            </form>
+
+<!--filtres de recherche-->
+
+            <section class="filtre">
+                <div class="text_filtre">Filtres</div>
+
+                <a class="click_filtre" href="#">
+                    <div class="eco">
+                        <div class="ima_ico"><i class="fa-solid fa-money-bill-wave"></i></div>
+                        <div class="marge">économique</div>
+                    </div>
+                </a>
+
+                <a class="click_filtre" href="#">
+                    <div class="familial">
+                        <div class="ima_ico"><i class="fa-solid fa-child"></i></div>
+                        <div class="marge">Familial</div>
+                    </div>
+                </a>
+
+                <a class="click_filtre" href="#">
+                    <div class="romantique">
+                        <div class="ima_ico"><i class="fa-solid fa-heart"></i></div>
+                        <div class="marge">Romantique</div>
+                    </div>
+                </a>
+
+                <a class="click_filtre" href="#">
+                    <div class="animaux">
+                        <div class="ima_ico"><i class="fa-solid fa-dog"></i></div>
+                        <div class="marge">Animaux autorisés</div>
+                    </div>
+                </a>
+
+            </section>
+
+
+            <div class="information">
+                <div class="information_i"><i class="fas fa-light fa-circle-info"></i></div>
+                <div class="information_text">Plus de 500 logements sont disponibles dans cette ville</div>
+            </div>
+
+<!--Corps du site-->
+
+<!--section Hébergements-->
+<div class="hebergement"></div>
+
+<!--section hébergements à Marseille-->
+   
+    <div class="hebergement_gauche"> 
+        <h2 id="hébergements_marseille"></h2>
+
+
+
+
+<!--section Hébergements les plus populaires-->
+
+<div class="les_hebergements_populaires_droite"> 
+    <h2 id="les-plus-populaires"></h2>
+    <aside id="populaires">
+
+
+<!--section activités à Marseille-->
+<h2 id="activités_marseille"></h2>
+<section id="Activités">
+
+    <h2>Activités à Marseille</h2>
+    <div class="directionRow">
+
+        <article>
+            <div>
+                <img src="images\activites\recadre\vieux-port.jpg" alt="Vieux-Port" class="images_activites">
+            </div>
+            <div class="textCenter">
+                <h3>Vieux-Port</h3>
+            </div>
+        </article>
+
+        <article>
+            <div>
+                <img src="images\activites\recadre\fort-de-pomegues.jpg" alt="Fort de Pomègues"
+                    class="images_activites">
+                <div class="textCenter">
+                    <h3>Fort de Pomègues</h3>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div>
+                <img src="images\activites\recadre\parc-national-des-calanques.jpg" alt="Parc national des Calanques"
+                    class="images_activites">
+                <div class="textCenter">
+                    <h3>Parc national des Calanques</h3>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div>
+                <img src="images\activites\recadre\notre-dame-de-la-garde.jpg" alt="Notre-Dame-de-la-Garde"
+                    class="images_activites">
+                <div class="textCenter">
+                    <h3>Notre-Dame-de-la-Garde</h3>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+
+<!--pied de page-->
+<footer>
+    <div class="a-propos">
+        <div class="texte-footer">A propos</div>
+        <nav class="foot">
+            <ul>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="nos-hebergements">
+        <div class="texte_footer">Nos hébergements</div>
+        <nav class="foot">
+            <ul>
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="assistance">
+        <div class="texte_footer">Assistance</div>                    
+        <nav class="foot">
+            <ul>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</div>
+</html>

@@ -1,3 +1,5 @@
+
+
 /* FONT */
 body
 {
@@ -15,7 +17,7 @@ font-family: Raleway;
     margin-bottom: 45px;
 }
 
-.logo_booki
+.logo-booki
 {
     padding-top: 10px;
     width: 75px;
@@ -30,7 +32,7 @@ font-family: Raleway;
 
 .menu
 {
-    margin:0;
+    margin: 0;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -136,7 +138,7 @@ button
 
 /* Filtres de recherche */
 
-.filtre_de_recherche
+.filtre-de-recherche
 {
     display: flex;
     flex-direction: column;
@@ -151,6 +153,7 @@ button
 .filtre a
 {
     text-decoration: none;
+    color: black;
 }
 
 .filtre div
@@ -167,13 +170,13 @@ button
     color: black;
 }
 
-.text_filtre
+.text-filtre
 {
     margin: 0 10px 0 0px;
     align-self: center;
 }
 
-.ima_ico
+.ima-ico
 {
     height: 50px;
     width: 50px;
@@ -183,6 +186,7 @@ button
     align-items: center;
     justify-content:center;
     border-radius: 100%;
+    color: #0065FC !important;
 }
 
 .marge
@@ -216,7 +220,7 @@ button
     align-items: center;
 }
 
-.information_text{
+.information-text{
     margin-left: 10px;
 }
 
@@ -234,9 +238,14 @@ button
     flex-direction: row;
 }
 
+.hebergement a
+{
+    color: #000000;
+}
 
 /* Hébergements à Marseille */
-.hebergement_gauche {
+.hebergement-gauche
+{
     width: 75%;
     /* height: 600px; */
     margin-right: 50px;
@@ -245,12 +254,12 @@ button
     padding: 5px;
 }
 
-#hébergements_marseille
+#hébergements-marseille
 {
 padding: 10px
 }
 
-.hebergement_images
+.hebergement-images
 {
     /* height: 600px; */
     display: flex;
@@ -262,7 +271,17 @@ padding: 10px
     padding-bottom: 30px;
 }
 
-.images_hebergements
+.hebergement-images a
+{
+    text-decoration: none;
+}
+
+.marge-afficher-plus
+{
+    margin-left: 20px;
+}
+
+.images-hebergements
 {
 	width: 96%;
 	border-radius: 30px 30px 0 0;
@@ -276,7 +295,6 @@ padding: 10px
 {
     font-size: 70%;
     width: 90%;
-    
 }
 
 .classement hover 
@@ -309,14 +327,16 @@ padding: 10px
 
 /* Hébergements les plus populaires */
 
-.titre_populaire
+.titre-populaire
 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+    margin-left: 40px;
 }
 
-.titre_populaire h2
+.titre-populaire h2
 {
     margin-right: 15px;
 }
@@ -326,7 +346,7 @@ padding: 10px
     color: #0065FC ;
 }
 
-.les_hebergements_populaires_droite
+.les-hebergements-populaires-droite
 {
     /* height: 750px; */
     width: 35%;
@@ -356,6 +376,11 @@ padding: 10px
     width: 82%;
 }
 
+.logements-populaires a
+{
+text-decoration: none;
+}
+
 .populaires article
 {
     width: 100%;
@@ -366,17 +391,16 @@ padding: 10px
     box-shadow: 0 10px 10px 5px #dadada;
 }       
 
-.images_populaires
+.images-populaires
 {
     width: 200px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     border-radius: 20px 0 0 20px;
-    /* box-shadow: 0.5rem 1rem rgba(0,0,0,.15); */
 }
 
-.images_populaires img
+.images-populaires img
 {
     height: 100%;
     width: 100%;
@@ -385,7 +409,7 @@ padding: 10px
     align-content: space-between;
 }
 
-.texte_populaires
+.texte-populaires
 {
     width: 55%;
     margin: 0;
@@ -394,13 +418,12 @@ padding: 10px
     flex-wrap: wrap;
 }
 
-.tarif_populaires
+.tarif-populaires
 {
     font-size: 80%;
     width: 90%;
     background-color: #ffffff;
 }
-
 
 /* Activités à Marseille */
 .directionRow
@@ -408,7 +431,6 @@ padding: 10px
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
- /* background-color: #f2f2f2; */
     padding: 45px;
     border-radius: 20px;
 }
@@ -435,7 +457,7 @@ padding: 10px
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
-.images_activites
+.images-activites
 {
 	width: 300px;
 	border-radius: 30px 30px 0 0;
@@ -459,6 +481,12 @@ footer
     background-color: #f2f2f2;
     display: flex;
     margin: 10px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #000000;
 }
 
 .a-propos, .nos-hebergements, .assistance
@@ -486,4 +514,58 @@ footer
 {
     font-weight: 700;
     font-size: 110%;
+}
+
+
+/*  inf à 768px */
+@media (max-width: 768px)
+{
+    
+    body
+    {
+        display: flex;
+        flex-direction: column;
+    }   
+    .menu
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }    
+    .logo-booki
+    {
+      /*  margin-left: 42%;
+         padding-left: 10px;
+        padding-right: 10px; 
+        text-align: center;*/
+        height: 50px;
+    }
+    
+
+    /* pied de page */
+
+    .footer
+    {
+    padding: 30px;
+    height: auto;
+    flex-direction: column;
+    }
+
+    .foot
+    {
+    margin: 0;
+    }
+
+    .text-footer, .foot ul
+    {
+    margin: 10px 0 10px 0;
+    }
+
+    .a-propos, .nos-hebergements, .assistance
+    {
+    width: 100%;
+    margin-top: 10px;
+    }
+
+
 }

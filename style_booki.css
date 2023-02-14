@@ -538,14 +538,15 @@ footer a
    /* HEADER */
 .header
 {
-    display: flex;
-    align-items: center;
-    width: 100%;
+   
 }
 
-.logo-booki
+.debut
 {
+    width: 300px;
+    height: 300px; 
     
+    text-align: center;
 }
 
 .entete
@@ -556,8 +557,8 @@ footer a
 .menu
 {
     display: flex;
-    align-items: center;
-    width: 100%;
+    align-items:  center;
+    width: 50%;
 }
 
 .menu li 

@@ -7,7 +7,7 @@ font-family: Raleway;
 }
 
 /* HEADER */
-.debut
+.header
 {
     flex-wrap: nowrap;
     flex-direction: row;
@@ -162,11 +162,13 @@ button
     font-size: 105%;
 }
 
-.filtre div a:hover {
+.filtre div a:hover
+{
     color: black;
 }
 
-.filtre .text {
+.filtre .text 
+{
     color: black;
 }
 
@@ -215,16 +217,19 @@ button
 
 /* information */
 
-.information{
+.information
+{
     display: flex;
     align-items: center;
 }
 
-.information-text{
+.information-text
+{
     margin-left: 10px;
 }
 
-.information i{
+.information i
+{
     font-size: 130%;
     color: #ffffff;
     background-color: #0065FC;
@@ -517,55 +522,396 @@ footer a
 }
 
 
+
+
+
 /*  inf à 768px */
 @media (max-width: 768px)
 {
-    
+ 
     body
     {
-        display: flex;
-        flex-direction: column;
-    }   
-    .menu
-    {
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }    
-    .logo-booki
-    {
-      /*  margin-left: 42%;
-         padding-left: 10px;
-        padding-right: 10px; 
-        text-align: center;*/
-        height: 50px;
-    }
-    
-
-    /* pied de page */
-
-    .footer
-    {
-    padding: 30px;
-    height: auto;
+    display: flex;
     flex-direction: column;
     }
 
-    .foot
-    {
-    margin: 0;
-    }
-
-    .text-footer, .foot ul
-    {
-    margin: 10px 0 10px 0;
-    }
-
-    .a-propos, .nos-hebergements, .assistance
-    {
+   /* HEADER */
+.header
+{
+    display: flex;
+    align-items: center;
     width: 100%;
-    margin-top: 10px;
+}
+
+.logo-booki
+{
+    
+}
+
+.entete
+{
+    
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.menu li 
+{
+    
+}
+
+.menu li a:hover
+{ 
+    
+}
+
+.menu li a 
+{
+    
+}
+
+nav
+{
+   
+}
+
+.texte-recherche
+{
+   
+}
+
+.container
+{
+	
+}
+
+.titre
+{
+    
+}
+
+.sous-titre
+{
+   
+}
+
+/* BARRE DE RECHERCHE */
+form
+{
+
+}
+
+.map
+{
+  
+}
+.map i
+{
+    
+}
+
+input
+{
+   
+}
+
+button
+{
+  
+}
+
+.loupe
+{
+    
+}
+
+/* Filtres de recherche */
+
+.filtre-de-recherche
+{
+    
+}
+
+.filtre
+{
+    
+}
+
+.filtre a
+{
+   
+}
+
+.filtre div
+{
+    
+}
+
+.filtre div a:hover
+ {
+   
+}
+
+.filtre .text
+{
+    
+}
+
+.text-filtre
+{
+ 
+}
+
+.ima-ico
+{
+
+}
+
+.marge
+{
+   
+}
+
+.eco, .familial, .romantique, .animaux
+{
+    
+}
+
+.eco:hover, 
+.familial:hover, 
+.romantique:hover, 
+.animaux:hover
+{
+   
+}
+
+/* information */
+
+.information
+{
+    
+}
+
+.information-text
+{
+    
+
+}
+
+.information i
+{
+    
+}
+
+
+    * Hébergements */
+    .hebergement
+    {
+    
     }
+    
+    .hebergement a
+    {
+     
+    }
+    
+    /* Hébergements à Marseille */
+    .hebergement-gauche
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #hébergements-marseille
+    {
+   
+    }
+    
+    .hebergement-images
+    {
+        
+    }
+    
+    .hebergement-images a
+    {
+       
+    }
+    
+    .marge-afficher-plus
+    {
+        
+    }
+    
+    .images-hebergements
+    {
+        
+    }
+    
+    .classement
+    {
+       
+    }
+    
+    .classement hover 
+    { 
+       
+    }
+    
+    .classement .blue
+    {
+       
+    }
+    
+    .classement .grey
+    {
+        
+    }
+    
+    .heberge
+    {
+        
+    }
+
+
+
+
+
+/* Hébergements les plus populaires */
+
+.titre-populaire
+{
+    
+}
+
+.titre-populaire h2
+{
+   
+}
+
+.graphe
+{
+   
+}
+
+.les-hebergements-populaires-droite
+{
+   
+}
+
+.populaires
+{
+   
+}
+
+.populaires a
+{
+    
+}
+
+.logements-populaires a
+{
+
+}
+
+.populaires article
+{
+    
+}       
+
+.images-populaires
+{
+   
+}
+
+.images-populaires img
+{
+
+}
+
+.texte-populaires
+{
+    
+}
+
+.tarif-populaires
+{
+   
+}
+
+
+
+
+
+/* Activités à Marseille */
+.directionRow
+{
+	
+}
+
+.section
+{
+	
+}
+
+.textCenter
+{
+	
+}
+
+.article
+{
+	
+}
+
+.images-activites
+{
+	
+}
+
+#Activités article
+{
+   
+}
+
+
+
+/* FOOTER */
+
+footer
+{
+    
+}
+
+footer a
+{
+    
+}
+
+.a-propos, .nos-hebergements, .assistance
+{
+    
+}
+
+.foot ul
+{
+    
+}
+
+.foot li
+{
+   
+}
+
+.texte-footer
+{
+    
+}
+
 
 
 }

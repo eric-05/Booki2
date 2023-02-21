@@ -162,6 +162,12 @@ button
     font-size: 105%;
 }
 
+.boutons-filtre
+{
+    display: flex;
+    flex-direction: row;
+}
+
 .filtre div a:hover
 {
     color: black;
@@ -238,7 +244,8 @@ button
 }
 
 /* Hébergements */
-.hebergement {
+.hebergement 
+{
     display: flex;
     flex-direction: row;
 }
@@ -528,193 +535,203 @@ footer a
 /*  inf à 768px */
 @media (max-width: 768px)
 {
- 
+
     body
     {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container
+    {
+        width: 100%;
     }
 
    /* HEADER */
-.header
-{
-   
-}
+    .header
+    {
+    }    
 
-.debut
-{
-    width: 300px;
-    height: 300px; 
-    
-    text-align: center;
-}
+        h1{
+        font-size: 125%;
+        }
 
-.entete
-{
-    
-}
+        .debut
+        {
+        text-align: center;
+         }
 
-.menu
-{
-    display: flex;
-    align-items:  center;
-    width: 50%;
-}
+    .entete
+    {
+        
+    }
 
-.menu li 
-{
-    
-}
+        .menu
+        {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 0;
+        }
 
-.menu li a:hover
-{ 
-    
-}
+    .menu li 
+    {
+        
+    }
 
-.menu li a 
-{
-    
-}
+    .menu li a:hover
+    { 
+        
+    }
 
-nav
-{
-   
-}
+    .menu li a 
+    {
+        
+    }
 
-.texte-recherche
-{
-   
-}
-
-.container
-{
-	
-}
-
-.titre
-{
-    
-}
-
-.sous-titre
-{
-   
-}
-
-/* BARRE DE RECHERCHE */
-form
-{
-
-}
-
-.map
-{
-  
-}
-.map i
-{
-    
-}
-
-input
-{
-   
-}
-
-button
-{
-  
-}
-
-.loupe
-{
-    
-}
-
-/* Filtres de recherche */
-
-.filtre-de-recherche
-{
-    
-}
-
-.filtre
-{
-    
-}
-
-.filtre a
-{
-   
-}
-
-.filtre div
-{
-    
-}
-
-.filtre div a:hover
- {
-   
-}
-
-.filtre .text
-{
-    
-}
-
-.text-filtre
-{
- 
-}
-
-.ima-ico
-{
-
-}
-
-.marge
-{
-   
-}
-
-.eco, .familial, .romantique, .animaux
-{
-    
-}
-
-.eco:hover, 
-.familial:hover, 
-.romantique:hover, 
-.animaux:hover
-{
-   
-}
-
-/* information */
-
-.information
-{
-    
-}
-
-.information-text
-{
-    
-
-}
-
-.information i
-{
-    
-}
-
-
-    * Hébergements */
-    .hebergement
+    nav
     {
     
     }
+
+    .texte-recherche
+    {
+    
+    }
+
+    .titre
+    {
+        
+    }
+
+    .sous-titre
+    {
+    
+    }
+
+    /* BARRE DE RECHERCHE */
+    form
+    {
+
+    }
+
+    .map
+    {
+    
+    }
+    .map i
+    {
+        
+    }
+
+        input
+        {
+        width: 100%
+        }
+
+    button
+    {
+   
+    }
+
+    .loupe
+    {
+        
+    }
+
+    /* Filtres de recherche */
+
+    .filtre-de-recherche
+    {
+        
+    }
+
+        .filtre-de-recherche form
+        {
+        width: 330px;
+        }
+
+        .filtre
+        {
+        /* display: block; */
+        margin-top: 30px;
+        justify-content: left;
+       
+        }
+
+        .boutons-filtre
+        {
+        flex-wrap: wrap;
+        }
+
+        .filtre div
+        {
+        font-size: 90%; 
+        }
+
+    .filtre div a:hover
+    {
+    
+    }
+
+    .filtre .text
+    {
+        
+    }
+
+    .text-filtre
+    {
+        justify-content: left;
+    }
+
+    .ima-ico
+    {
+
+    }
+
+    .marge
+    {
+    
+    }
+
+    .eco, .familial, .romantique, .animaux
+    {
+        
+    }
+
+    .eco:hover, 
+    .familial:hover, 
+    .romantique:hover, 
+    .animaux:hover
+    {
+    
+    }
+
+    /* information */
+
+    .information
+    {
+        
+    }
+
+    .information-text
+    {
+        
+
+    }
+
+    .information i
+    {
+        
+    }
+
+    /* Hébergements */
+    .hebergement
+        {
+            display: flex;
+            flex-direction: column-reverse;
+            /* display: block; */
+        }
     
     .hebergement a
     {
@@ -722,11 +739,13 @@ button
     }
     
     /* Hébergements à Marseille */
-    .hebergement-gauche
-    {
+        .hebergement-gauche
+        {
+        width: 85%;
         display: flex;
         flex-direction: column;
-    }
+        height: 100%;
+        }
     
     #hébergements-marseille
     {
@@ -753,166 +772,95 @@ button
         
     }
     
-    .classement
+        .heberge
+        {
+        width: 100%;  
+        }
+
+
+    /* Hébergements les plus populaires */
+
+        .titre-populaire
+        {
+        width: 100%;  
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        }
+
+        .les-hebergements-populaires-droite
+        {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        }
+
+        .populaires
+        {
+        width: 100%;  
+        }
+
+
+        .logements-populaires
+        {
+        width: 100%;
+        }
+        
+    .images-populaires img
     {
-       
+
     }
+
     
-    .classement hover 
-    { 
-       
-    }
+    /* Activités à Marseille */
+
+
+        .directionRow
+        {
+        display: flex;
+        flex-direction: column;
+        height: 100%;  
+        }
+
     
-    .classement .blue
-    {
-       
-    }
-    
-    .classement .grey
+    .textCenter
     {
         
     }
-    
-    .heberge
+
+    .article
     {
         
     }
 
+    .images-activites
+    {
+        
+    }
 
-
-
-
-/* Hébergements les plus populaires */
-
-.titre-populaire
-{
+    #Activités article
+    {
     
-}
+    }
 
-.titre-populaire h2
-{
-   
-}
 
-.graphe
-{
-   
-}
 
-.les-hebergements-populaires-droite
-{
-   
-}
+    /* FOOTER */
 
-.populaires
-{
-   
-}
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100%; 
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
 
-.populaires a
-{
+        .a-propos, .nos-hebergements, .assistance
+    {
+        width: 100%;
+    }
     
-}
-
-.logements-populaires a
-{
-
-}
-
-.populaires article
-{
-    
-}       
-
-.images-populaires
-{
-   
-}
-
-.images-populaires img
-{
-
-}
-
-.texte-populaires
-{
-    
-}
-
-.tarif-populaires
-{
-   
-}
-
-
-
-
-
-/* Activités à Marseille */
-.directionRow
-{
-	
-}
-
-.section
-{
-	
-}
-
-.textCenter
-{
-	
-}
-
-.article
-{
-	
-}
-
-.images-activites
-{
-	
-}
-
-#Activités article
-{
-   
-}
-
-
-
-/* FOOTER */
-
-footer
-{
-    
-}
-
-footer a
-{
-    
-}
-
-.a-propos, .nos-hebergements, .assistance
-{
-    
-}
-
-.foot ul
-{
-    
-}
-
-.foot li
-{
-   
-}
-
-.texte-footer
-{
-    
-}
-
-
-
 }

@@ -561,10 +561,7 @@ footer a
         text-align: center;
          }
 
-    .entete
-    {
-        
-    }
+    
 
         .menu
         {
@@ -574,41 +571,7 @@ footer a
         padding-left: 0;
         }
 
-    .menu li 
-    {
-        
-    }
-
-    .menu li a:hover
-    { 
-        
-    }
-
-    .menu li a 
-    {
-        
-    }
-
-    nav
-    {
     
-    }
-
-    .texte-recherche
-    {
-    
-    }
-
-    .titre
-    {
-        
-    }
-
-    .sous-titre
-    {
-    
-    }
-
     /* BARRE DE RECHERCHE */
     form
     {
@@ -694,36 +657,7 @@ footer a
     
     }
 
-    .eco, .familial, .romantique, .animaux
-    {
-        
-    }
-
-    .eco:hover, 
-    .familial:hover, 
-    .romantique:hover, 
-    .animaux:hover
-    {
     
-    }
-
-    /* information */
-
-    .information
-    {
-        
-    }
-
-    .information-text
-    {
-        
-
-    }
-
-    .information i
-    {
-        
-    }
 
     /* Hébergements */
     .hebergement
@@ -755,11 +689,6 @@ footer a
     .hebergement-images
     {
         
-    }
-    
-    .hebergement-images a
-    {
-       
     }
     
     .marge-afficher-plus

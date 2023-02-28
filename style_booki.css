@@ -529,9 +529,6 @@ footer a
 }
 
 
-
-
-
 /*  inf à 768px */
 @media (max-width: 768px)
 {
@@ -540,6 +537,7 @@ footer a
     {
         display: flex;
         flex-direction: column;
+        background-color: #F0F2F6;
     }
 
     .container
@@ -548,20 +546,20 @@ footer a
     }
 
    /* HEADER */
-    .header
-    {
-    }    
+        .logo-booki
+        {
+        height: 23px;
+        }
 
-        h1{
+        h1
+        {
         font-size: 125%;
         }
 
         .debut
         {
         text-align: center;
-         }
-
-    
+        }
 
         .menu
         {
@@ -572,42 +570,15 @@ footer a
         }
 
     
-    /* BARRE DE RECHERCHE */
-    form
-    {
-
-    }
-
-    .map
-    {
+        /* BARRE DE RECHERCHE */
     
-    }
-    .map i
-    {
-        
-    }
-
         input
         {
         width: 100%
         }
 
-    button
-    {
-   
-    }
-
-    .loupe
-    {
-        
-    }
-
-    /* Filtres de recherche */
-
-    .filtre-de-recherche
-    {
-        
-    }
+    
+        /* Filtres de recherche */
 
         .filtre-de-recherche form
         {
@@ -616,7 +587,7 @@ footer a
 
         .filtre
         {
-        /* display: block; */
+        display: block;
         margin-top: 30px;
         justify-content: left;
        
@@ -632,80 +603,32 @@ footer a
         font-size: 90%; 
         }
 
-    .filtre div a:hover
-    {
-    
-    }
-
-    .filtre .text
-    {
-        
-    }
-
-    .text-filtre
-    {
+        .text-filtre
+        {
         justify-content: left;
-    }
-
-    .ima-ico
-    {
-
-    }
-
-    .marge
-    {
-    
-    }
-
-    
-
+        }
+   
     /* Hébergements */
     .hebergement
         {
             display: flex;
             flex-direction: column-reverse;
-            /* display: block; */
         }
-    
-    .hebergement a
-    {
-     
-    }
-    
+      
     /* Hébergements à Marseille */
         .hebergement-gauche
         {
-        width: 85%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         height: 100%;
         }
     
-    #hébergements-marseille
-    {
-   
-    }
-    
-    .hebergement-images
-    {
-        
-    }
-    
-    .marge-afficher-plus
-    {
-        
-    }
-    
-    .images-hebergements
-    {
-        
-    }
-    
         .heberge
         {
-        width: 100%;  
+        width: 100%; 
+        margin-left: 5px; 
         }
-
 
     /* Hébergements les plus populaires */
 
@@ -730,17 +653,10 @@ footer a
         width: 100%;  
         }
 
-
         .logements-populaires
         {
         width: 100%;
         }
-        
-    .images-populaires img
-    {
-
-    }
-
     
     /* Activités à Marseille */
 
@@ -749,32 +665,46 @@ footer a
         {
         display: flex;
         flex-direction: column;
-        height: 100%;  
+        width: 100%;
+        margin: 5px 0;
+        padding: 0%;
         }
 
-    
-    .textCenter
-    {
-        
-    }
+        #Activités h2
+        {
+        width:50%;
+        }
 
-    .article
-    {
-        
-    }
+        #activites a
+        {
+        width: 100%;
+        }
 
-    .images-activites
-    {
-        
-    }
+        #Activités article
+        {
+        border-radius: 30px;
+        background-color: #ffffff;
+        margin: 10px 10px 10px 10px; 
+        }
 
-    #Activités article
-    {
-    
-    }
+        .article
+        {
+        border-radius: 20px;
+	    width: 90%;
+        padding-top: 15px;
+	    }
 
+        .images-activites
+        {
+        width: 100%;
+        max-width : 400px;
+        height :auto
 
+        position : absolute;
+        clip : rect(200px, 50px, 200px, 50px);        
+        }
 
+   
     /* FOOTER */
 
     footer
